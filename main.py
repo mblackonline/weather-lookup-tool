@@ -26,8 +26,7 @@ temp_max = response['main']['temp_max']  # create a variable to store the high t
 humidity = response['main']['humidity']  # create a variable to store the humidity level
 sunrise = response['sys']['sunrise']  # create a variable to store the sunrise time
 sunset = response['sys']['sunset']  # create a variable to store the sunset time
-sunrise_time_val = time.strftime('%#I:%M %p', time.localtime(
-    sunrise))  # The "#" is to remove the leading 0 from the time.  Time has been converted from Unix/Epoch time to standard time.
+sunrise_time_val = time.strftime('%#I:%M %p', time.localtime(sunrise))  # The "#" is to remove the leading 0 from the time.  Time has been converted from Unix/Epoch time to standard time.
 sunset_time_val = time.strftime('%#I:%M %p', time.localtime(sunset))
 
 print(f' - At the location: {city_name_state}, the temperature is currently {current_temp} Fahrenheit.')
