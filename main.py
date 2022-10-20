@@ -1,7 +1,6 @@
 # Introduction to APIs in Python
 # Build a weather look-up app with Python and an API from openweathermap.com
-# Code based off of/adapted from a YouTube tutorial produced by LeMaster Tech at this link: https://youtu.be/kLNtdehfNrI.
-# Here is a good YouTube tutorial on how to hide API keys: https://youtu.be/YdgIWTYQ69A
+
 
 # Import the necessary modules
 import requests
