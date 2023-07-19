@@ -9,6 +9,7 @@ import os
 from dotenv import load_dotenv
 from urllib.parse import urlencode
 
+# load the .env file, which stores the API key value
 load_dotenv()
 
 # Replace this value with your own API key from openweathermap.com.
